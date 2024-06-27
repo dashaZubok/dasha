@@ -1,0 +1,115 @@
+h1{
+
+    font-size: 48px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+span{
+color: cadetblue;
+text-transform: uppercase;
+margin-left: 30px;
+cursor:pointer;
+transition: 0.5s;
+
+}
+span:hover{
+color: crimson;
+text-decoration: underline;
+}
+h2{
+    cursor:pointer;
+    /* text-decoration: underline; */
+    margin-left: 30px;
+   
+}
+h2:hover{
+    color: crimson;
+
+}
+
+p{
+color:rgb(47, 46, 46);
+font-family: sans-serif;
+margin-left: 30px;
+}
+.music{
+    height:300px;
+    width: 300px;
+}
+.music:hover{
+opacity: 60
+}
+
+body{
+background:rgba(128, 128, 128, 0.345) ;
+}
+nav{
+display: flex;
+height: 60px;
+align-items: center;
+}
+.nav_left{
+    display: flex;
+
+}
+.nav_right{
+    display: flex;
+}
+.logo{
+    width: 244px; ;
+    height: 24px; ;
+}
+#logo{
+    width: 100%;
+    height: 200%;
+}
+.nav_left>div{
+margin-left: 40px; 
+line-height:40px;
+}
+
+.nav_right>div{
+    margin-right: 30px;
+    text-align: center;
+    line-height:60px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+.nav_left>div:hover{
+    color: blueviolet;
+    cursor: pointer;
+}
+.nav_login{
+    padding: 5px;
+    background:yellow ;
+    height: 20px ;
+}
+.allMusic{
+
+
+display:flex;
+gap:20px;
+}
+.musics{
+    height:300px;
+    width: 350px;
+    overflow: hidden;
+}
+.music_desc{
+    background-color: rgba(235, 38, 87, 0.8);
+    transition: 1s;
+    height: 100px;
+    text-align: center;
+    color: rgb(29, 119, 198);
+    font-weight: 700;
+    font-family: fantasy;
+    line-height: 100px;
+}
+.musics:hover >.music_desc{
+    transform: translateY(-300%);
+    transition: 1s;
+}
